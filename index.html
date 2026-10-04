@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>BOBOS Watch</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <main class="watch">
+
+```
+<header>
+  <div class="logo">BOBOS</div>
+  <div class="status-dot"></div>
+</header>
+
+<section class="time-section">
+  <div id="clock">12:00</div>
+  <div id="date">Loading...</div>
+</section>
+
+<section class="dashboard">
+
+  <div class="card projects">
+    <div class="icon">📁</div>
+    <div>
+      <span>PROJECTS</span>
+      <strong>7</strong>
+    </div>
+  </div>
+
+  <div class="card games">
+    <div class="icon">🎮</div>
+    <div>
+      <span>GAMES</span>
+      <strong>3</strong>
+    </div>
+  </div>
+
+  <div class="card website">
+    <div class="icon">🌐</div>
+    <div>
+      <span>WEBSITE</span>
+      <strong>ONLINE</strong>
+    </div>
+  </div>
+
+</section>
+
+<section class="quick-actions">
+
+  <button onclick="refreshPage()">
+    <span>↻</span>
+    Refresh
+  </button>
+
+  <button onclick="showMessage()">
+    <span>⚡</span>
+    BOBOS
+  </button>
+
+</section>
+
+<div id="message"></div>
+
+<footer>
+  BOBOS WATCH v2
+</footer>
+```
+
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
